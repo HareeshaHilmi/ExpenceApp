@@ -1,0 +1,27 @@
+body {
+  background-image: url('../Resources/bg3.jpeg');
+}
+
+.d-flex button{
+	margin: 1.5em 0.6em;
+	padding: 0.5em 2.4em;
+}
+
+.d-flex table{
+	margin: 1em 10em;
+}
+
+table .btnedit{
+	color: #ffa07a;
+	cursor: pointer;
+}
+
+.success{
+	background-color: #90ee90;
+	padding: 1em;
+}
+
+.error{
+	background-color: #d8412c;
+	padding: 1em;
+}
