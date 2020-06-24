@@ -29,6 +29,7 @@
 	function createData(){
 		$expense = textboxValue("expense");
 		$amount = textboxValue("amount");
+		// $photo = addslashes(file_get_contents($_FILES["photo"]["tmp_name"]));
 		
 		if ($expense && $amount) {
 			$sql = "INSERT INTO expencet(expense,amount)
@@ -138,9 +139,5 @@ function deleteAll(){
 		TextNode("error","Something went wrong record cannot deleted..!");
 	}
 }
-
-
-
-
 
 ?>

@@ -34,9 +34,9 @@
 					</div>
 
 					<div class="pt-2">
-					 <?php inputElement("<i class=\" fas fa-book\"></i>","Amount","amount","" ); ?>
+					 <?php inputElement("<i class=\" fas fa-book\" ></i>","Amount","amount","" ); ?>
 
-					 <input type ="file" name="img" id="img">
+					 <!--input type ="file" name="photo" id="photo"-->
 					</div>	
 
 					<!---------Buttons---------------->
@@ -77,7 +77,7 @@
 											<td data-id="<?php echo $row['id']; ?>"><?php echo $row['id']; ?></td>
 											<td data-id="<?php echo $row['id']; ?>"><?php echo $row['expense']; ?></td>
 											<td data-id="<?php echo $row['id']; ?>"><?php echo 'Rs.  '. $row['amount']; ?></td>
-											 <td><i class="fas fa-edit btnedit" data-id="<?php echo $row['id'];?>"></i></td>
+											<td><i class="fas fa-edit btnedit" data-id="<?php echo $row['id'];?>"></i></td>
 										</tr>
 										<?php				
 									}
